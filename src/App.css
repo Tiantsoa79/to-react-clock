@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bouton {
+  color: white;
+  background-color: rgb(88, 88, 255);
+  border-color: transparent;
+  border-radius: 7vh;
+}
+
+.textBouton {
+  border-radius: 1vh;
+
+  border: transparent;
+}
+.textBouton2 {
+  border-radius: 1vh;
+}
+.nav {
+  background-color: #282c34;
+  color: white;
+ display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.tablePage {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftPart {
+  background-color: #282c34;
+color: gray;
+
+padding-left: 2%;
+width: 15vw;
+height: 100vh;
+position: relative;
+}
+.footLeft {
+  position: absolute;
+  bottom: 0%;
+}
+.a {
+  text-decoration: none;
+  color: gray;
+  
+  font-size: large;
+}
+.a1 {
+  font-size: small; 
+  
+}
+.rightPart {
+padding-left: 3%;
+}
+
+.boxed {
+  padding: 1%;
+  border: rgb(161, 161, 161) solid 0.2vh;
+}
+.boxedTwo {
+  padding: 1%;
+  border: rgb(161, 161, 161) solid 0.2vh;
+  background-color: rgba(236, 233, 233, 0.788);
+}
+
+.boxed3 {
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.table{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table {
+  border: 2px solid rgb(219, 219, 219);
+  width: 100%;
+  height: 100%;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+  
+td {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.404);
+}
+
+.boxedFour {
+  padding: 1%;
+  border: rgb(161, 161, 161) solid 0.2vh;
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+}
+.bouton2 {
+  color: rgb(38, 0, 255);
+  
+  border-color: transparent;
+  
+
+}
